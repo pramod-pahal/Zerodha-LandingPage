@@ -1,0 +1,225 @@
+body{
+    font-family: "Inter", serif;
+    font-size: 16px;
+    width: 100%;
+    line-height: 1.7;
+    font-weight: 400px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #387ed1;
+    font-weight: 500;
+}
+
+#navbar{
+    display: flex; 
+    justify-content: space-around;
+    padding-bottom: 15px;
+    margin-top: 20px;
+    box-shadow: 2px 1px 2px #eee;
+    box-sizing: border-box;
+    width: 100%;
+    
+}
+
+#navbar #navFeatures{
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+.center-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px; /* Adds space between image and heading */
+}
+
+.landing-container img {
+    width: 900px;
+    height: auto;
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 48px; /* Increased font size - adjust as needed */
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px; /* Standard paragraph size */
+    margin-top: 40px; /* Reduces space between h1 and paragraph */
+    color: #666;
+}
+button, .button {
+    background-color: #387ed1;
+    color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0) !important;
+    border-radius: 3px;
+    display: inline-block;
+    padding: 10px 30px;
+    /* color: #555; */
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 500;
+    text-decoration: none;
+    white-space: nowrap;
+    /* background-color: rgba(0, 0, 0, 0); */
+    border-radius: 3px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-bottom: 150px;
+    margin-top: 40px;
+}
+
+#middle-section {
+    padding: 20px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 5px; /* Adjust the gap between the sections */
+}
+
+.fivecolumns {
+    flex: 1; /*Makes the text section take available space*/
+    max-width: 450px; 
+    /* Adjust as needed */
+    margin-left: 200px;
+    color: #666;
+}
+
+.ecosystem {
+    flex: 1; /* Makes the image section take equal available space */
+    text-align: center; /* Centers the image */
+}
+
+.ecosystem img {
+    max-width: 100%; /* Ensures the image scales responsively */
+    height: auto;
+}
+
+.why-us-section {
+    margin-bottom: 20px;
+}
+
+h2{
+    margin: 0 0 10px;
+    color: #666;
+    font-size: xx-large;
+}
+
+p {
+    margin: 0 0 15px;
+}
+
+#press-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 80px;
+}
+
+#sec-content, #sec-image {
+    flex: 1;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* .icon-arrow{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+} */
+
+.free-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.free-container #varsity-img{
+    max-width: 100%;
+    height: auto;
+}
+
+#varsity-img, #varsity-content{
+    flex: 1;
+    padding: 20px;
+}
+
+.varsity-content-para{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#open-zeroda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+
+#open-zeroda-content {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+}
+
+.footer-miscellaneous p{
+    display: flex;
+    justify-content: center;
+    font-size: 8px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.footer-container-content{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+.footer-container-content h3{
+    font-weight: normal;
+}
+footer{
+    background-color: rgb(249, 248, 242);
+}
